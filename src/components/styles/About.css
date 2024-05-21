@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2,580px);
+    gap: 40px;
+    margin-left: 80px;
+   
+}
+.about-img{
+    height: auto;
+    width: 560px;
+    border-radius: 10px;
+}
+.about-head{
+    margin: 50px 0px 20px 0px;
+    border: 1px solid #DFE4FD;
+    padding:8px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #0B5ED7;
+    font-size: 20px;
+}
+.about-slogan{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    color:#011A41;
+}
+.about-text{
+    margin-top: 20px;
+}
+.tab-head{
+    border: 1px solid #DFE4FD;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.available-head{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid #DFE4FD;
+    border-radius: 2px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.available-grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+    padding-right:5px; 
+    gap:25px;
+}
+.vr-line{
+    height: 100px;
+    color:#DFE4FD;
+    border-right: 1px solid #d7deff;
+}
+.available-title{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+}
