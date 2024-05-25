@@ -91,7 +91,7 @@ const AboutCounters = () => {
   <div className="choose-grid-sub">
   <div  className="choose-card">
   <IconContext.Provider
-          value={{ color: "#3055E4", size: "30px", marginLeft: "40px" }}
+          value={{ color: "#3055E4", size: "30px"}}
         >
           <div>
             <FaCheck />

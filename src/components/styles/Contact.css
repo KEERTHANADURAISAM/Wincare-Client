@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2,580px);
     gap:70px;
     margin-left: 60px;
+    margin-top: 250px;
 }
 .contact-main-flex{
     display: flex;
@@ -44,10 +45,11 @@ padding-left: 15px;
     font-family: 'Open Sans', sans-serif;
     border:1px solid #d1d8fc !important;
     margin: 2px;
-    font-weight: 400;
+    font-weight: 600;
     width: 600px;
     color:RGB(85, 85, 85);
     font-size: 16px;
+
 }
 .contact-input:hover{
     border: none !important;
@@ -64,12 +66,13 @@ padding-left: 15px;
     font-family: 'Open Sans', sans-serif;
     border:1px solid #d1d8fc !important;
     margin: 2px;
-    font-weight: 400;
+    font-weight: 600;
     width: 576px;
     padding-top: 10px;
 padding-left: 15px;
     color:RGB(85, 85, 85);
     font-size: 16px;
+    
 }
 .text-area{
 height: 100px;
@@ -79,7 +82,7 @@ padding-left: 15px;
 font-family: 'Open Sans', sans-serif;
 border:1px solid #d1d8fc !important;
 margin: 2px;
-font-weight: 400;
+font-weight: 600;
 }
 .msg-btn{
     padding: 10px;
@@ -92,4 +95,7 @@ font-weight: 400;
     color:#FFFFFF;
     height: 50px;
     width: 200px;
+}
+.location-div{
+    margin-top: 30px;
 }

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.getIn-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ 
+}
+.get-card{
+    background-color:#FFFFFF;
+padding: 10px;
+border:1px solid #DFE4FD;
+border-radius: 8px;
+}
+.get-headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 10px;
+}
+.get-p-tag{
+   
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #365FFC;
+    border: 1px solid #d1d8fc;
+    border-radius:8px;
+    width: 130px;
+    padding: 5px;
+    padding-left: 12px;
+ 
+}
+.get-h1-tag{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    color: #011A41;
+    margin-top:10px ;
+}
+.getIn-input-div{
+display: flex;
+
+gap:30px;
+margin-top: 30px;
+}
+.get-input-name{
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border:1px solid #d1d8fc !important;
+    margin: 2px;
+    font-weight: 600;
+    width: 300px;
+    color:RGB(85, 85, 85);
+    font-size: 16px;
+
+
+}
+.get-in-text{
+    height: 100px;
+border-radius: 10px;
+padding-top: 10px;
+padding-left: 15px;
+font-family: 'Open Sans', sans-serif;
+border:1px solid #d1d8fc !important;
+margin: 2px;
+font-weight: 600;
+width: 635px;
+margin-top: 20px;
+}
+.get-btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.get-msg-btn{
+margin-top: 20px;
+padding: 10px;
+background-color:#3055E4 ;
+border: none;
+border-radius: 10px;
+font-family: "Open Sans", sans-serif;
+font-weight:500;
+font-size: 18px;
+color:#FFFFFF;
+height: 50px;
+width: 200px;
+}

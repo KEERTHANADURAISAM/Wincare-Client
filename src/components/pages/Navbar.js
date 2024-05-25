@@ -9,13 +9,13 @@ import { GoTriangleDown } from "react-icons/go";
 import Slider from './Slider'
 
 
-const Navbar = ({item}) => {
+const Navbar = () => {
     const myStyle = {
         backgroundColor:
             `#FFFFFF`,
         height:'100vh'
     };
-    console.log(item)
+    
   return (
      <>
          <div style={myStyle}>
